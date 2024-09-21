@@ -25,6 +25,9 @@ html {
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .header {
   padding: 1rem 9%;
